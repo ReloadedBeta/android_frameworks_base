@@ -208,4 +208,8 @@
 
     <color name="GM2_yellow_500">#FFFBBC04</color>
     <color name="GM2_green_500">#FF34A853</color>
+    
+    <!-- Color of the FOD view -->
+    <color name="config_fodColor">#00ff00</color>
+    
 </resources>
