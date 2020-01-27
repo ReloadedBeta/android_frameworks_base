@@ -4636,6 +4636,12 @@ public final class Settings {
 
         private static final Validator LOCKSCREEN_BATTERY_INFO_VALIDATOR =
                 BOOLEAN_VALIDATOR;
+                
+        /**
+         * FOD recognizing animation
+         * @hide
+         */
+        public static final String FOD_RECOGNIZING_ANIMATION = "fod_recognizing_animation";
 
         /**
         * Whether to allow battery light

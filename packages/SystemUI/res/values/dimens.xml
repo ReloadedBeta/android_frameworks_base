@@ -1169,4 +1169,7 @@
     <!-- Bottom margin size when fingerprint in display is active -->
     <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">30dp</dimen>
     
+    <!-- Recognizing fingerprint animation -->
+    <dimen name="fod_animation_size">700dp</dimen>
+    
 </resources>
