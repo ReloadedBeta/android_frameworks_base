@@ -120,4 +120,7 @@
     <string name="tuner_battery_lights_title">Enable battery light</string>
     <string name="tuner_battery_lights_summary">Turn on the light while charging or low battery</string>
 
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">FOD recognizing animation</string>
+    <string name="fod_recog_animation_summary">Shows animation while reading your finger</string>
 </resources>

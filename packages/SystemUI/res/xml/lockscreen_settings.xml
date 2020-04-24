@@ -65,5 +65,12 @@
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="false" />
+    
+    <!-- FOD recognizing animation -->
+    <com.android.systemui.reloaded.SystemSettingSwitchPreference
+        android:key="fod_recognizing_animation"
+        android:title="@string/fod_recog_animation"
+        android:summary="@string/fod_recog_animation_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
