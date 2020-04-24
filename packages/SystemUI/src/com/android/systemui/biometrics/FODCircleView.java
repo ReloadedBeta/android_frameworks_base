@@ -245,7 +245,9 @@ public class FODCircleView extends ImageView {
 
         if (event.getAction() == MotionEvent.ACTION_DOWN && newIsInside) {
             showCircle();
-        if (mIsRecognizingAnimEnabled) {
+            mIsRecognizingAnimEnabled = Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.FOD_RECOGNIZING_ANIMATION, 0) != 0;
+            if (mIsRecognizingAnimEnabled) {
                 mFODAnimation.showFODanimation();
             }
             return true;
